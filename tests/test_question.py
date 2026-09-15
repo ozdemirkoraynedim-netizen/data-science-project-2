@@ -215,10 +215,10 @@ def run_tests():
 
     url = "https://kaizu-api-8cd10af40cb3.herokuapp.com/projectLog"
     payload = {
-        "user_id": 34,
+        "user_id": 796,
         "project_id": 35,
         "user_score": user_score,
-        "is_auto": False
+        "is_auto": True
     }
     headers = {"Content-Type": "application/json"}
     send_post_request(url, payload, headers)
